@@ -13,7 +13,7 @@ pipeline{
 		}
 		stage('Deploy'){
 			steps{
-			sh 'sudo mvn deploy'
+			sh 'mvn deploy'
 			}
 		}
 	}
