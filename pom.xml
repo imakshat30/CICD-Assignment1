@@ -61,4 +61,12 @@
 <modules>  <module>Assignment1-frontend</module>
     <module>Assignment1-backend</module>
   </modules>
+  <distributionManagement>
+  <snapshotRepository>
+  <id>Assignment_1</id>
+  <name>Assignment_1</name>
+  <url>http://localhost:8081/repository/Assignment_1/</url>
+  </snapshotRepository>
+  </distributionManagement>
+ 
 </project>

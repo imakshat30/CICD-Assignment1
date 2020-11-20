@@ -11,5 +11,10 @@ pipeline{
 			sh 'mvn clean'
 			}
 		}
+		stage('Deploy'){
+			steps{
+			sh 'sudo mvn deploy'
+			}
+		}
 	}
 }
